@@ -26,8 +26,67 @@
 
 
 .colored__text{
-    color:#ffb703;
+    color:#c9184a;
 }
 .fw__semibold{
     font-weight: 500;
 }
+.text__white{
+    color:white;
+}
+
+.primary__btn{
+    border: 0;
+    padding: 10px 25px;
+    color: #c9184a;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 8px;
+
+}
+
+.primary__btn:hover{
+    background-color:#c9184a;
+    color: white;
+    transition: 200ms ease-in;
+}
+.fs__heading{
+    font-size: 3rem;
+}
+
+
+
+
+
+/* custom responsiveness */
+
+
+@media (max-width: 1200px) {
+
+    .carousel-item{
+        height: 50vh;
+    }
+
+    .fs__heading{
+        font-size: 2.5rem;
+    }
+    .carousel-item img{
+        object-fit: cover;
+        object-position: center;
+    }
+
+
+}
+
+@media(max-width: 768px){
+    .fs__heading{
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+    .carousel-item p{
+        font-size: 13px;
+    }
+
+}
+
+
