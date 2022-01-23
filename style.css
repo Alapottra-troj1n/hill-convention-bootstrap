@@ -1,0 +1,33 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;700&display=swap');
+
+
+/* Global Styles */
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(58, 58, 58);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utility Styles */
+
+
+.colored__text{
+    color:#ffb703;
+}
+.fw__semibold{
+    font-weight: 500;
+}
